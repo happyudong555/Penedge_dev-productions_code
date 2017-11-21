@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#mainSlider").owlCarousel({autoPlay:3300,items:2,itemsDesktop:[1199,3],itemsDesktopSmall:[979,3]})}),$(document).ready(function(){$("#myCarousel").carousel({interval:1e4})});

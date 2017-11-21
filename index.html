@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="eng" ng-app="app"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="images/favicon.jpg" type="image/jpg"><!-- Code SEO
+    <meta name="description" content="">
+    
+    <meta name="keywords" content=""> --><title>Penedge</title><!-- Bootstrap CSS CDN --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/slider.css"><link rel="stylesheet" href="css/mobile.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css"><!-- Fontawesome CDN --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- owl carousel CDN --><link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"><!-- owl carousel CDN --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"><!-- Sidemenu CSS --><link rel="stylesheet" href="css/sidemenu.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.css"><!-- Jquery 3.1.0 CDN --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><!-- Bootstrap JS CDN --><script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script><script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- Slider Carouse.js CDN --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script><!-- Sidemenu JS --><script type="text/javascript" src="js/sidemenu.js"></script><script type="text/javascript">(function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-101441233-1', 'auto');
+        ga('send', 'pageview');</script></head><body><nav class="navbar navbar-default navbar-responsive" id="top" role="navigation" style="height:100px"><div class="container"><!-- Brand and toggle get grouped for better mobile display --><div class="navbar-header"><a class="navbar-brand" href="index.html"><img src="images/penedgeLogo.png" class="logo" alt="penedge logo"><p class="BrandName" style="left: inherit;
+                    margin-left: 90px">penedge</p></a><a href="login.html" class="btn btn-sm clearfix button-login-responsive" style="float: right; right: 20px; background-color: #f06630; top: -23px; color: #fff; position: relative; text-transform: capitalize;cursor:pointer">login</a></div><div class="row"><div class="searchBox-responsive"><form action="" class="search-form search-responsive"><div class="form-group has-feedback"><input type="text" class="form-control" id="search" placeholder="search" ng-model="searchBox"> <span class="fa fa-lg fa-search form-control-feedback"></span></div></form></div></div><!-- Collect the nav links, forms, and other content for toggling --><div class="collapse navbar-collapse navbar-ex1-collapse"><ul class="nav navbar-nav navbar-right"><!-- Search input --><form action="" class="search-form" style="position: relative; top:-7px;right: 90px"><div class="form-group has-feedback"><input type="text" class="form-control" id="search" placeholder="search" ng-model="searchBox"> <span class="fa fa-lg fa-search form-control-feedback"></span></div></form><a href="login.html" class="btn btn-sm clearfix" style="float: right; right: 20px; background-color: #f06630; top: -70px; color: #fff; position: relative; text-transform: capitalize;cursor:pointer">login</a></ul></div><!-- /.navbar-collapse --></div></nav><style>.blog {
+            max-width: 100%;
+            height: 300px;
+            float: left;
+            overflow: hidden;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .blogThumbnail {
+            width: 270px;
+            height: 270px;
+            overflow: hidden;
+            object-fit: cover;
+            object-position: center top;
+            background-color: #000;
+            float: left;
+        }
+
+        .blogThumbnail img {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            object-fit: cover;
+            object-position: center top;
+            background-color: #000;
+        }
+
+        .blogThumbnail-content {
+            height: 270px;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .blogThumbnail-content p {
+            padding: 20px;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-size: 12px;
+            line-height: 28px;
+            font-family: sukhumvit set, kanit, Roboto;
+            text-transform: capitalize!important;
+            cursor: pointer !important;
+        }
+
+        .blogThumbnail-content h4 {
+            overflow: hidden;
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 0;
+            font-family: sukhumvit set, kanit, Roboto;
+            text-transform: capitalize !important;
+            cursor: pointer !important;
+            font-weight: bold;
+            font-size: 16px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            text-rendering: optimizeSpeed;
+        }
+
+        #createPost {
+            padding-top: 5px;
+        }
+
+        .userPost {
+            width: 40px;
+            height: 40px;
+            overflow: hidden;
+            border-radius: 100px;
+            background-color: #000;
+            float: left;
+            margin-left: 24px;
+        }
+
+        .shareBox {
+            width: 100%;
+            height: 76px;
+            background-color: #fff;
+            margin-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .favoriteWrapper {
+            width: 170px;
+            height: 76px;
+            background-color: #fff;
+            float: right;
+            border-left: 1px solid #eee;
+            border-right: 0;
+            border-bottom: 0;
+            border-top: 0;
+            font-family: sukhumvit set, kanit;
+        }
+
+        @media screen and (max-width:420px) {
+
+            .caption h4 {
+                line-height: 42px;
+                font-size: 17.5px !important;
+            }
+            .favoriteWrapper {
+                width: 100%;
+                float: none;
+            } 
+            .favoriteWrapper span {
+                text-align: left !important;
+                right: 116px !important;
+                left: inherit !important;
+                position:relative;
+            }
+            .blog {
+                width: 100%;
+                height: auto;
+                float: left;
+                overflow: hidden;
+                margin-bottom: 20px;
+                overflow: hidden;
+            }
+
+            .blogThumbnail {
+                width: 100%;
+                height: 270px;
+                overflow: hidden;
+                object-fit: cover;
+                object-position: center top;
+                background-color: #000;
+                float: none;
+            }
+            .blogThumbnail-content {
+                height: 230px;
+                background-color: #fff;
+                overflow: hidden;
+            }
+
+            .CardContent h4 {
+                height: auto;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }</style><div ng-controller="SliderarticlesController"><!-- Slider owl-carousel --><div class="container"><div class="row"><br><br><div class="col-md-6 blog" ng-repeat="BookSlider in CardFeeds | limitTo:4 | orderBy:random | filter:searchBox"><div class="blogThumbnail"><img class="img-responsive" ng-src="{{'images/'+BookSlider.image}}" ng-click="BookModal(BookSlider)" style="cursor:pointer"></div><div class="blogThumbnail-content"><h4 ng-click="BookModal(BookSlider)" style="cursor:pointer">{{BookSlider.storyname}}</h4><p ng-click="BookModal(BookSlider)" style="cursor:pointer">{{BookSlider.content | limitTo:120 }}</p><img class="userPost" src="{{BookSlider.imageUrl}}"><p id="createPost">{{BookSlider.name}}</p></div></div><!-- end of col-md-6 blog --></div></div><!-- end Slider owl-carousel --><!-- Modal of BookFeed --><div class="modal fade bs-example-modal-lg" id="SliderContent" style="padding-right:0 !important"><div class="modal-dialog modal-lg modal-dialog-responsive"><div class="clearfix"><button type="button" class="close buttonCloseModal-responsive" data-dismiss="modal" aria-label="Close"><span><img src="images/close.svg" class="ClosButton"></span></button></div><div class="modal-content"><div class="caption"><img ng-src="{{'images/'+BookFeeds.image}}" class="imagesModal-responsive" style="padding: 30px;padding-bottom: 0"><h4 class="text-left" style="margin-bottom:10px;font-size: 25px !important">{{BookFeeds.storyname}}</h4><p style="padding-bottom:17px;font-size: 14px !important">{{BookFeeds.content}}</p><div class="shareBox"><img ng-src="{{BookFeeds.imageUrl}}" class="ProfilePost" style="margin-left: 30px; width: 40px !important; height: 40px !important; border-radius: 100px !important; margin-top: 16px"> <span class="PostBy" style="font-size: 14px;margin-top: 26px"><span id="createPostModal">{{BookFeeds.name}}</span> <i class="fa fa-pencil" style="color: #999;margin-left:10px"></i> </span><button data-dismiss="modal" type="button" class="favoriteWrapper btn" ng-click="Addfavorite(BookFeeds)"><i class="fa fa-heart fa-lg" style="font-size: 20px; color: red; float: left; margin-left: 20px;
+                                 top: 3px; position: relative"></i> <span class="text-center" style="text-transform: uppercase;
+                                color: #999 !important;
+                                right: 0;
+                                left: 0">favorite</span></button></div></div></div><!-- end modal-content --></div><!-- end modal dialog --></div><!-- end modal --></div><!-- end SliderarticlesController --><div ng-controller="articlesFeedSliderController"><div class="NewsUpdate"><div class="container clearfix"><div id="articlesUpdate" class="mainTextHeader"><i class="fa fa-lg fa-pencil-square" style="margin-right:17px;color:#fdcb00;font-size:30px"></i>news update</div><!-- End mainTextHeader --><div class="container-fluid"><div class="row"><div id="carousel-example-generic" class="carousel slide NewsUpdateSlider" data-ride="carousel"><!-- Wrapper for slides --><div class="carousel-inner" role="listbox"><div ng-class="{active:!$index}" class="item" ng-repeat="feed in PostFeeds | orderBy:'-_id' | filter:searchBox"><div class="col-md-12 promotionSlider"><img ng-src="{{'images/'+feed.image}}" ng-click="openModal(feed)" style="cursor:pointer"></div></div></div><!-- end carousel-inner --><!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><span class="fa fa-lg fa-caret-left prev-responsive" aria-hidden="true" style="width: 50px;height: 50px;padding: 8px 10px 0px 5px;border-radius: 4px;text-align: center;background-color: rgba(13, 16, 21, 0.74);z-index: inherit;font-size: 44px;position:relative;top:220px;text-shadow: none;color: #fdcb00"></span> <span class="sr-only"></span> </a><a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="fa fa-lg fa-caret-right prev-responsive" aria-hidden="true" style="width: 50px;height: 50px;padding:8px 0px 0px 5px;border-radius: 4px;text-align: center;background-color: rgba(13, 16, 21, 0.74);z-index: inherit;font-size: 44px;position:relative;top:220px;text-shadow: none;color: #fdcb00"></span> <span class="sr-only"></span></a></div><!-- end carousel-example-generic --></div><!-- end row --></div><!-- end container-fluid --><div class="slick-container"><slick autoplay="true" speed="560" touch-move="false" slides-to-show="3" slides-to-scroll="1"><div class="slick-item" ng-repeat="feed in PostFeeds | orderBy:'-_id' | filter:searchBox"><div class="col-md-12" style="margin-bottom: 20px;width:380px"><div class="Feed" style="margin-bottom:0"><img ng-src="{{'images/'+feed.image}}" ng-click="openModal(feed)" style="cursor:pointer"></div></div></div></slick></div><!-- Modal of CardFeed --><div class="modal fade bs-example-modal-lg" id="post-feed-modal" style="padding-right:0 !important"><div class="modal-dialog modal-lg modal-dialog-responsive"><div class="clearfix"><button type="button" class="close buttonCloseModal-responsive" data-dismiss="modal" aria-label="Close"><span><img src="images/close.svg" class="ClosButton"></span></button></div><div class="modal-content"><div class="caption"><img ng-src="{{'images/'+NewsFeed.image}}" class="imagesModal-responsive" style="padding: 30px;padding-bottom: 0"><h4 class="text-left" style="margin-bottom:10px;font-size: 25px !important">{{NewsFeed.storyname}}</h4><p style="padding-bottom:17px;font-size: 14px !important">{{NewsFeed.content}}</p><div class="shareBox"><img ng-src="{{NewsFeed.imageUrl}}" class="ProfilePost" style="margin-left: 30px; width: 40px !important; height: 40px !important; border-radius: 100px !important; margin-top: 16px"> <span class="PostBy" style="font-size: 14px;margin-top: 26px"><span id="createPostModal">{{NewsFeed.name}}</span> <i class="fa fa-pencil" style="color: #999;margin-left:10px"></i> </span><button data-dismiss="modal" type="button" class="favoriteWrapper btn" ng-click="Addfavorite(NewsFeed)"><i class="fa fa-heart fa-lg" style="font-size: 20px; color: red; float: left; margin-left: 20px;
+                                             top: 3px; position: relative"></i> <span class="text-center" style="text-transform: uppercase; 
+                                            color: #999 !important">favorite</span></button></div></div></div><!-- end modal-content --></div><!-- end modal dialog --></div><!-- end modal --></div><!-- end container --></div><!-- end News Update --></div><!-- end articlesController --><div ng-controller="FeedArticlesController" class="container clearfix"><div class="row"><div class="col-sm-6 col-md-3 CardFeed-responsive" ng-repeat="CardFeed in CardFeeds | orderBy:'-_id' | filter:searchBox"><div class="CardFeed"><img ng-src="{{'images/'+CardFeed.image}}" ng-click="CardFeedModal(CardFeed)"><div class="CardContent"><h4>{{CardFeed.storyname}}</h4><p ng-click="CardFeedModal(CardFeed)">{{CardFeed.content | limitTo:66 }}</p><div class="CardFeed-Footer"><img ng-src="{{CardFeed.imageUrl}}" class="ProfilePost"> <span><span class="PostBy"><span style="bottom: 2px; position: relative">post by :</span><br><span id="createPost">{{CardFeed.name}}</span> <i class="fa fa-pencil" style="color: #999;margin-left:10px"></i></span></span></div></div><!-- CardContent --></div><!-- end CardFeed --></div><!-- end col-sm-6 col-md-4 --></div><!-- end row --><!-- Modal of CardFeed --><div class="modal fade bs-example-modal-lg" id="CardFeed-Post" style="padding-right:0 !important"><div class="modal-dialog modal-lg modal-dialog-responsive"><div class="clearfix"><button type="button" class="close buttonCloseModal-responsive" data-dismiss="modal" aria-label="Close"><span><img src="images/close.svg" class="ClosButton"></span></button></div><div class="modal-content"><div class="caption"><img ng-src="{{'images/'+CardFeedModals.image}}" class="imagesModal-responsive" style="padding: 30px;padding-bottom: 0"><h4 class="text-left" style="margin-bottom:10px;font-size: 25px !important">{{CardFeedModals.storyname}}</h4><p style="padding-bottom:17px;font-size: 14px !important">{{CardFeedModals.content}}</p><div class="shareBox"><img ng-src="{{CardFeedModals.imageUrl}}" class="ProfilePost" style="margin-left: 30px; width: 40px !important; height: 40px !important; border-radius: 100px !important; margin-top: 16px"> <span class="PostBy" style="font-size: 14px;margin-top: 26px"><span id="createPostModal">{{CardFeedModals.name}}</span> <i class="fa fa-pencil" style="color: #999;margin-left:10px"></i> </span><button data-dismiss="modal" type="button" class="favoriteWrapper btn" ng-click="Addfavorite(CardFeedModals)"><i class="fa fa-heart fa-lg" style="font-size: 20px; color: red; float: left; margin-left: 20px;
+                                     top: 3px; position: relative"></i> <span class="text-center" style="text-transform: uppercase; 
+                                    color: #999 !important">favorite</span></button></div></div></div><!-- end modal-content --></div><!-- end modal dialog --></div><!-- end modal --></div><!-- end container --><div class="container-fluid"><div class="row"><div id="about" class="footer"><div class="container clearfix"><div class="span12"><div class="mainFooter"><ul><h4 class="FooterHeading">contact us</h4><p class="footerLink"><i class="fa fa-lg fa-phone" style="position: relative; margin-right: 10px"></i> 029402510</p><p class="footerLink"><i class="fa fa-lg fa-inbox" style="position: relative; margin-right: 10px"></i> pdworldmedia@gmail.com</p><p class="footerLink"><i class="fa fa-lg fa-map-marker" style="position: relative; margin-right: 10px"></i>thailand Bangkok 25 Lardprakow 27</p></ul></div><div class="mainFooter"><ul><h4 class="FooterHeading">social media</h4><li><a href="https://www.facebook.com/Penedgeencyclopedia/" target="_blank" class="footerLink"><i class="fa fa-lg fa-facebook"></i></a></li><li><a href="https://twitter.com/penedge2012" target="_blank" class="footerLink"><i class="fa fa-lg fa-twitter"></i></a></li></ul></div><div class="mainFooter"><ul><h4 class="FooterHeading">penedge about us</h4><li><p class="footerLink">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veritatis reiciendis eveniet laborum reprehenderit fugiat voluptate excepturi voluptatem vitae ducimus?</p></li></ul></div></div><!-- end span12--></div><!-- end container --></div><!-- footer--></div><!-- end row --></div><!-- end container-fluid--></body><!-- Angular.js CDN --><script type="text/javascript" src="/angular/angular.min.js"></script><script type="text/javascript" src="js/thumbnailSlider.js"></script><!-- favorite --><!-- authentication.js --><script type="text/javascript" src="controllers/authentication.js"></script><script type="text/javascript" src="controllers/admin.auth.js"></script><!-- connectDB.js --><script type="text/javascript" src="js/favorite.js"></script><script type="text/javascript" src="controllers/adminDB.js"></script><script type="text/javascript" src="js/slider.js"></script></html>

@@ -1,0 +1,45 @@
+{
+  "name": "penedge-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyudong555/penedge-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happyudong555/penedge-book/issues"
+  },
+  "homepage": "https://github.com/happyudong555/penedge-book#readme",
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.15.2",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "mongodb": "^2.2.11",
+    "multer": "^1.2.0",
+    "multiparty": "^4.1.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pump": "^1.0.2",
+    "router": "^1.1.4",
+    "router-express": "^1.5.2",
+    "socket.io": "^1.5.1",
+    "socket.io-stream": "^0.9.1"
+  },
+  "dependencies": {
+    "express-session": "^1.15.2"
+  }
+}
